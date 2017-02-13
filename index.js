@@ -3,6 +3,10 @@ var express = require('express'),
 pug = require('pug'),
 path = require('path'),
 mods = require('./script.js');
+
+home = require('./routes/home.js'),
+menu = require('./routes/menu.js'),
+directions = require('./routes/directions.js');
  
 var app = express(); 
  
@@ -11,7 +15,7 @@ app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname + '/public'))); 
 
-app.get('/', routes.home);
+app.get('/', home.index);
 app.get('/directions', directions);
 app.get('/menu/burgers', menu.burgers);
 app.get('/menu/sides', menu.sides);
