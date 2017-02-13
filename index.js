@@ -10,13 +10,11 @@ var app = express();
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname + '/public'))); 
- 
-// when the root URL is displayed, render the index.jade file passing in two variables
-app.get('/', function(req, res){
-    res.render('index', {
-        myTitle: 'Fortune', 
-        myContent: mods.randomFortune()
-    });
-});
+
+app.get('/', routes.home);
+app.get('/directions', directions);
+app.get('/menu/burgers', menu.burgers);
+app.get('/menu/sides', menu.sides);
+app.get('/menu/desserts', menu.desserts);
  
 app.listen(3000);
