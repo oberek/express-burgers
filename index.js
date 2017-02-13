@@ -16,7 +16,8 @@ app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname + '/public'))); 
 
 app.get('/', home.index);
-app.get('/directions', directions);
+app.get('/directions', directions.index);
+app.get('/menu', menu.index);
 app.get('/menu/burgers', menu.burgers);
 app.get('/menu/sides', menu.sides);
 app.get('/menu/desserts', menu.desserts);

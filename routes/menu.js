@@ -1,7 +1,5 @@
 exports.index = function(req, res) {
-    res.send("Welcome to the Menu! (<a href='menu/burgers'>Burgers</a>)");
-    res.send("Welcome to the Menu! (<a href='menu/sides'>Sides</a>)");
-    res.send("Welcome to the Menu! (<a href='menu/desserts'>Desserts</a>)");
+    res.send("Welcome to the Menu! (<a href='menu/burgers'>Burgers</a>) (<a href='menu/sides'>Sides</a>) (<a href='menu/desserts'>Desserts</a>)");
 };
  
 exports.burgers = function(req, res) {
