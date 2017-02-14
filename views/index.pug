@@ -1,7 +1,10 @@
-doctype
-html
-     head
-          link(href='css/style.css', rel='stylesheet')
-          title= myTitle
-     body
-          p= myContent
+extends layout
+
+block vars
+    - var title = 'Home'
+    - var updated = '2/13/17'
+
+block content
+    h1 #{title}
+    h4 updated: #{updated}
+    p index content

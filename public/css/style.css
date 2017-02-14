@@ -3,7 +3,7 @@ html {
 }
  
 body {
-    font-family:        verdana,arial,sans-serif;
+    font-family: Feral;
     font-size:          12px;
     color:              #300;
     background-color:   #ffa;
@@ -11,4 +11,9 @@ body {
     padding:            10px;
     margin:             20px auto;
     text-align:         center;
+}
+
+@font-face {
+  font-family: Feral;
+  src: url('public/fonts/Feral.ttf');
 }
