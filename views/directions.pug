@@ -1,7 +1,10 @@
 extends layout
 
-    
+block vars
+    script(src='./scripts/script.js')
 
 block content
-    p "Hello World"
+    #map
+    
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDLf8wBNjKDn6VBqRpcl3ZKN3M6ywIrBBc&callback=initMap')
     

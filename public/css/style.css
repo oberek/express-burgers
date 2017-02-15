@@ -54,3 +54,8 @@ table {
 h1{
     color: aliceblue;
 }
+#map{
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
