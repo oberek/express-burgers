@@ -5,14 +5,16 @@ head
     block vars
     title #{title}
 body
-    header
-        nav
-            ul
-                li
-                    a(href='index') Home
-                    a(href='menu') Menu
-                    a(href='directions') Directions
-    section
-        block content
-    footer
-        p Copyright &copy; Microsoft Corp 2017
+    nav
+        ul
+            li
+                a(href='index') Home
+                a(href='menu') Menu
+                a(href='directions') Directions
+    .container
+        header
+            h1 #{h1}
+        section
+            block content
+        footer
+            p Copyright &copy; Microsoft Corp 2017
