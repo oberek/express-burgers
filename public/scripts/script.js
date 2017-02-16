@@ -1,6 +1,6 @@
 function initMap(){
-    var directionsService = new google.maps.DirectionsService;
-    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var directionsService = new google.maps.DirectionsService();
+    var directionsDisplay = new google.maps.DirectionsRenderer();
     var pos;
     var uluru = {lat:40.768213, lng:-111.889179};
 
@@ -8,13 +8,20 @@ function initMap(){
     zoom:16,
     center:uluru
 });
-
-    directionsDisplay.setMap(map);
+    var contentString = '<div>Latitude: '+ uluru.lat + '</br>Longitude: '+ uluru.lng + '</div>'
+    var infoWindow = new google.maps.InfoWindow({
+        content: contentString
+    });
 
     var marker = new google.maps.Marker({
         position:uluru,
         map:map
     });
+    marker.addListener('click', function(){
+        infoWindow.open(map,marker);
+    });
+
+   
 
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(function(position){
@@ -22,18 +29,11 @@ function initMap(){
             lat:  position.coords.latitude,
             lng: position.coords.longitude
         };
-        
+
         map.setCenter(pos);
-        
+
         });
     }
 
-    function calculateAndDisplayRoute(directionsService, directionsDisplay){
-        directionsService.route({
-            origin: new google.maps.LatLng(pos.lat, pos.lng),
-            destination: uluru,
-            travelMode: 'DRIVING'
-        });
-    }
-    calculateAndDisplayRoute(directionsService, directionsDisplay);
+
 }
