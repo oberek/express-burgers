@@ -5,31 +5,18 @@ block vars
     - var updated = '2/15/17'
 
 block content
-    h1 Menu
-    table(border=1)
+    h1 Courses
+    table(border=0)
         tr
-            th Item
-            th Description
-            th Cost
-        tr
-            td Zombie Burger
-            td Our Primary Course
-            td $5.69
-        tr
-            td Eyeball Surprise
-            td Our Vein-iest eyeballs
-            td $6.39
-        tr
-            td Bloody Fries
-            td Cheese Fries Sprinkled With Blood
-            td $4.09
-    h1 Kid's Menu
-    table(border=1)
-        tr
-            th Item
-            th Description
-            th Cost
-        tr
-            td Chicken Nuggets
-            td Zombie Kids LOVE our Chicken Nuggets
-            td $3.69
+            td
+                a(href='/burgers')
+                    img(src="./public/images/placeholder.png")
+                    | Burgers
+            td
+                a(href='/sides')
+                    img(src="./public/images/placeholder.png")
+                    | Sides
+            td
+                a(href='/desserts')
+                    img(src="./public/images/placeholder.png")
+                    | Desserts
