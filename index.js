@@ -16,7 +16,7 @@ app.get('/', function(req, res){
 });
 app.get('/:viewname', function(req, res){
     res.render(req.params.viewname);
-    res.status(404).send("Sorry, can't find that page!")
+    //res.status(404).send("Sorry, can't find that page!")
 });
 
 app.listen(3000);
