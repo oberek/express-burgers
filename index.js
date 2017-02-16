@@ -1,8 +1,7 @@
  // adds Express, Pug and path
 var express = require('express'),
 pug = require('pug'),
-path = require('path'),
-mods = require('./script.js');
+path = require('path');
 
 var app = express(); 
  
