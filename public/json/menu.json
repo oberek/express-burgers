@@ -40,30 +40,65 @@
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/menu_nugget.png"
     },
     "item7":{
-      "name" : "Chicken Nuggets",
+      "name" : "Chicken Fingers",
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
       "picture": "./images/placeholder.png"
     },
     "item8":{
-      "name" : "Chicken Nuggets",
+      "name" : "Monster Burger",
       "description": "The Kids Menu favorite!",
-      "type": "side",
+      "type": "burger",
       "price": "$3.59",
       "picture": "./images/placeholder.png"
     },
     "item9":{
-      "name" : "Chicken Nuggets",
+      "name" : "Mini Monster Burger",
       "description": "The Kids Menu favorite!",
-      "type": "side",
+      "type": "burger",
       "price": "$3.59",
       "picture": "./images/placeholder.png"
     },
     "item10":{
+      "name" : "Baby Burger",
+      "description": "The Kids Menu favorite!",
+      "type": "burger",
+      "price": "$3.59",
+      "picture": "./images/placeholder.png"
+    },
+    "item11":{
+      "name" : "Chicken Nuggets",
+      "description": "The Kids Menu favorite!",
+      "type": "dessert",
+      "price": "$3.59",
+      "picture": "./images/placeholder.png"
+    },
+    "item12":{
+      "name" : "Chicken Nuggets",
+      "description": "The Kids Menu favorite!",
+      "type": "dessert",
+      "price": "$3.59",
+      "picture": "./images/placeholder.png"
+    },
+    "item13":{
+      "name" : "Chicken Nuggets",
+      "description": "The Kids Menu favorite!",
+      "type": "dessert",
+      "price": "$3.59",
+      "picture": "./images/placeholder.png"
+    },
+    "item14":{
+      "name" : "Chicken Nuggets",
+      "description": "The Kids Menu favorite!",
+      "type": "dessert",
+      "price": "$3.59",
+      "picture": "./images/placeholder.png"
+    },
+    "item15":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "dessert",

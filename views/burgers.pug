@@ -8,6 +8,7 @@ block content
     h1 BURGERS
     each meal in foods
         if meal.type == 'burger'
+            <hr>
             div.name
                 h2.name= meal.name
             div.picture

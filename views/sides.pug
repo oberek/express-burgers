@@ -8,6 +8,7 @@ block content
     h1 SIDES
     each meal in foods
         if meal.type == 'side'
+            <hr>
             div.name
                 h2.name= meal.name
             div.picture
@@ -16,3 +17,4 @@ block content
                 p2= meal.description
             div.price
                 p2= meal.price
+            
