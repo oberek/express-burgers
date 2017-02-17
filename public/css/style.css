@@ -71,6 +71,13 @@ table {
 a {
     text-decoration: none;
 }
+a:visited{
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    color:red;
+}
 
 h1 {
     transition: all 0.5s ease;
