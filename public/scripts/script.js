@@ -7,7 +7,7 @@ function initMap(){
     zoom:16,
     center:uluru
 });
-    var contentString = '<div>City Creek Center<br>36 South State St., Unit 240<br>Salt Lake City, UT 84103</div>'
+    var contentString = '<p3>City Creek Center<br>36 South State St., Unit 240<br>Salt Lake City, UT 84103</p3>'
     var infoWindow = new google.maps.InfoWindow({
         content: contentString
     });

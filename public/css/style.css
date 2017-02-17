@@ -3,7 +3,6 @@ body {
     font-size:          20px;
     color:              white;
     background-color:   #400;
-    overflow: hidden;
 }
 
 .container {
@@ -15,6 +14,10 @@ body {
     box-shadow: inset 0 0 3em black, 0 0 1em red;
     position: relative;
     height: 100vh;
+}
+
+.burger {
+    margin-top: 150px;
 }
 
 ul {
@@ -63,15 +66,47 @@ table {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
+    transition: all 0.5s ease;
     color: aliceblue;
-    margin-top: -15px;
+    margin-top: 1px;
     text-align: left;
     margin-left: 5%;
 }
 
+h1:hover {
+    color:red;
+    transform: translateX(45px);
+}
+
 #map{
     margin: auto;
+    margin-top: 2%;
     width: 90%;
     height: 500px;
 }
+
+p {
+    transition: all 300ms linear;
+    font-size: 160%;
+    color: red;
+    margin-top: 13%;
+    margin-bottom: -.5%;
+}
+
+p:hover {
+    transform: rotate(360deg);
+}
+
+p2 {
+    font-size: 75%;
+}
+
+p3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
