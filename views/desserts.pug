@@ -1,20 +1,18 @@
 extends layout
 
 block vars
-    - var title = 'Menu';
+    - var title = 'Desserts';
     - var updated = '2/15/17';
-    - var jsonList = 'something'
 
 block content
-    p I'm At the Desserts Pug
-    mixin course(item)
-        h2.course-name= item.name
-        div.description
-            p= item.description
-        div.price
-            p= item.price
-        div.picture
-            img(src=item.picture)
-
-    for meal in jsonList
-        +course(meal)
+    h1 DESSERTS
+    each meal in foods
+        if meal.type == 'dessert'
+            div.name
+                h2.name= meal.name
+            div.picture
+                img(src meal.picture)
+            div.description
+                p= meal.description
+            div.price
+                p= meal.price
