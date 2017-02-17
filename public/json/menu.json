@@ -5,70 +5,70 @@
       "description": "Our most popular burger",
       "type": "burger",
       "price": "$5.69",
-      "picture": "<img src=\"burger.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item2":{
       "name" : "Eyeball Surprise",
       "description": "The Vein-iest of Eyeballs with a special homemade spice",
       "type": "side",
       "price": "$4.49",
-      "picture": "<img src=\"eyeball.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item3":{
       "name" : "Steamed Neck",
       "description": "Tender juicy neck sourced from an organic human farm",
       "type": "side",
       "price": "$7.69",
-      "picture": "<img src=\"human_neck.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item4":{
       "name" : "Brain Burger",
       "description": "Tender Chunks of Brain with a tangy Barbecue Sauce in a burger",
       "type": "burger",
       "price": "$6.69",
-      "picture": "<img src=\"brain.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item5":{
       "name" : "Baby Back Ribs",
       "description": "Harvested from the plumpest of children",
       "type": "side",
       "price": "$9.19",
-      "picture": "<img src=\"ribs.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item6":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
-      "picture": "<img src=\"nuggets.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item7":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
-      "picture": "<img src=\"nuggets.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item8":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
-      "picture": "<img src=\"nuggets.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item9":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "side",
       "price": "$3.59",
-      "picture": "<img src=\"nuggets.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     },
     "item10":{
       "name" : "Chicken Nuggets",
       "description": "The Kids Menu favorite!",
       "type": "dessert",
       "price": "$3.59",
-      "picture": "<img src=\"nuggets.png\" height=\"50\" width=\"50\""
+      "picture": "./images/placeholder.png"
     }
   }
 }
