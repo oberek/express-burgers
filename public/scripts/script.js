@@ -1,6 +1,5 @@
 function initMap(){
-    var directionsService = new google.maps.DirectionsService();
-    var directionsDisplay = new google.maps.DirectionsRenderer();
+    
     var pos;
     var uluru = {lat:40.768213, lng:-111.889179};
 
@@ -8,7 +7,7 @@ function initMap(){
     zoom:16,
     center:uluru
 });
-    var contentString = '<div>Latitude: '+ uluru.lat + '</br>Longitude: '+ uluru.lng + '</div>'
+    var contentString = '<p3>City Creek Center<br>36 South State St., Unit 240<br>Salt Lake City, UT 84103</p3>'
     var infoWindow = new google.maps.InfoWindow({
         content: contentString
     });
@@ -25,13 +24,32 @@ function initMap(){
 
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(function(position){
-        pos = {
-            lat:  position.coords.latitude,
-            lng: position.coords.longitude
-        };
-
-        map.setCenter(pos);
-
+            var latitude = position.coords.latitude;
+            var longitude =position.coords.longitude;
+            var coords = new google.maps.LatLng(latitude,longitude);
+            var directionsService = new google.maps.DirectionsService();
+            var directionsDisplay = new google.maps.DirectionsRenderer();
+            var mapOptions = {
+                zoom:15,
+                center:coords,
+                mapTypeControl:true,
+                navigationControlOptions:
+                {
+                    style: google.maps.NavigationControlStyle.SMALL
+                },
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            directionsDisplay.setMap(map);
+            var request = {
+                origin:coords,
+                destination: uluru,
+                travelMode: google.maps.DirectionsTravelMode.DRIVING
+            };
+            directionsService.route(request, function(response, status){
+                if(status == google.maps.DirectionsStatus.OK){
+                    directionsDisplay.setDirections(response);
+                }
+            });
         });
     }
 

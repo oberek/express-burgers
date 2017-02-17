@@ -2,8 +2,16 @@ extends layout
 
 block vars
     script(src='./scripts/script.js')
+    - var title = 'Bur-GRRRRs! - Directions'
 
 block content
+    h1 Directions
+    p3 Visit our location at: 
+    p3 City Creek Center 
+        br 
+        | 36 South State St., Unit 240 
+        br
+        | Salt Lake City, UT 84103
     #map
     
     script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDLf8wBNjKDn6VBqRpcl3ZKN3M6ywIrBBc&callback=initMap')
