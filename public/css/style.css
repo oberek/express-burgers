@@ -4,11 +4,13 @@ body {
     color:              white;
     background-color:   #400;
     overflow-y: scroll;
+    background-image: url('../images/57755.jpg');
+
 }
 
 .container {
     background-color:   #291211;
-    width:              80%;
+    width:              60%;
     padding:            10px;
     padding-bottom: 2.5%;
     margin:             auto;
@@ -34,6 +36,7 @@ ul {
     width: 96%;
     left:0;
     margin-top: 100px;
+
 }
 
 
