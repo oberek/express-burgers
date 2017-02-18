@@ -12,14 +12,14 @@
       "description": "The Vein-iest of Eyeballs with a special homemade spice",
       "type": "side",
       "price": "$4.49",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/eyeballs.jpg"
     },
     "item3":{
       "name" : "Steamed Neck",
       "description": "Tender juicy neck sourced from an organic human farm",
       "type": "side",
       "price": "$7.69",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/neck.jpg"
     },
     "item4":{
       "name" : "Brain Burger",
@@ -33,7 +33,7 @@
       "description": "Harvested from the plumpest of children",
       "type": "side",
       "price": "$9.19",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/ribs.jpg"
     },
     "item6":{
       "name" : "Chicken Nuggets",
@@ -46,21 +46,21 @@
       "name" : "Chicken Fingers",
       "description": "The Kids Menu favorite!",
       "type": "side",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$3.19",
+      "picture": "./images/fingers.jpg"
     },
     "item8":{
       "name" : "Monster Burger",
       "description": "The Kids Menu favorite!",
       "type": "burger",
-      "price": "$3.59",
+      "price": "$4.19",
       "picture": "./images/placeholder.png"
     },
     "item9":{
       "name" : "Mini Monster Burger",
       "description": "The Kids Menu favorite!",
       "type": "burger",
-      "price": "$3.59",
+      "price": "$3.09",
       "picture": "./images/placeholder.png"
     },
     "item10":{
@@ -71,39 +71,39 @@
       "picture": "./images/placeholder.png"
     },
     "item11":{
-      "name" : "Chicken Nuggets",
-      "description": "The Kids Menu favorite!",
+      "name" : "Cactus Ice Cream",
+      "description": "A Prickly Frosty Treat!",
       "type": "dessert",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$2.29",
+      "picture": "./images/cactus.jpg"
     },
     "item12":{
-      "name" : "Chicken Nuggets",
-      "description": "The Kids Menu favorite!",
+      "name" : "Egg Nog",
+      "description": "Perfect for Children!",
       "type": "dessert",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$1.49",
+      "picture": "./images/eggnog.jpg"
     },
     "item13":{
-      "name" : "Chicken Nuggets",
-      "description": "The Kids Menu favorite!",
+      "name" : "Fruits of Labor",
+      "description": "Someone's gotta put in the work.",
       "type": "dessert",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$5.69",
+      "picture": "./images/fruits.jpg"
     },
     "item14":{
-      "name" : "Chicken Nuggets",
-      "description": "The Kids Menu favorite!",
+      "name" : "Chocolate Mice",
+      "description": "\"Squeak Squeak!\"",
       "type": "dessert",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$2.19",
+      "picture": "./images/mouse.png"
     },
     "item15":{
-      "name" : "Chicken Nuggets",
-      "description": "The Kids Menu favorite!",
+      "name" : "Brain Juice",
+      "description": "Full of Vitamin C!",
       "type": "dessert",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$3.39",
+      "picture": "./images/brainjuice.jpg"
     }
   }
 }
