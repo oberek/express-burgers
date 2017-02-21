@@ -5,7 +5,7 @@
       "description": "Our most popular burger",
       "type": "burger",
       "price": "$5.69",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/zomburger.jpg"
     },
     "item2":{
       "name" : "Eyeball Surprise",
@@ -26,7 +26,7 @@
       "description": "Tender Chunks of Brain with a tangy Barbecue Sauce in a burger",
       "type": "burger",
       "price": "$6.69",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/brainburger.PNG"
     },
     "item5":{
       "name" : "Baby Back Ribs",
@@ -44,31 +44,31 @@
     },
     "item7":{
       "name" : "Chicken Fingers",
-      "description": "The Kids Menu favorite!",
+      "description": "Bread Battered Chicken Strips; Chicken Fingernails Included.",
       "type": "side",
       "price": "$3.19",
       "picture": "./images/fingers.jpg"
     },
     "item8":{
       "name" : "Monster Burger",
-      "description": "The Kids Menu favorite!",
+      "description": "We Can't Promise It Doesn't bite",
       "type": "burger",
       "price": "$4.19",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/monsterburger.PNG"
     },
     "item9":{
       "name" : "Mini Monster Burger",
-      "description": "The Kids Menu favorite!",
+      "description": "Half the size of the Monster Burger",
       "type": "burger",
       "price": "$3.09",
-      "picture": "./images/placeholder.png"
+      "picture": "./images/minimonster.jpg"
     },
     "item10":{
       "name" : "Baby Burger",
-      "description": "The Kids Menu favorite!",
+      "description": "Offered in Rare to Well Done",
       "type": "burger",
-      "price": "$3.59",
-      "picture": "./images/placeholder.png"
+      "price": "$5.49",
+      "picture": "./images/babyburger.PNG"
     },
     "item11":{
       "name" : "Cactus Ice Cream",
@@ -96,7 +96,7 @@
       "description": "\"Squeak Squeak!\"",
       "type": "dessert",
       "price": "$2.19",
-      "picture": "./images/mouse.png"
+      "picture": "./images/mice.jpg"
     },
     "item15":{
       "name" : "Brain Juice",
